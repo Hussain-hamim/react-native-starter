@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import Header from "../../components/Header";
 
 import React from "react";
 
@@ -9,9 +10,19 @@ export default function HomeScreen() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "gray",
+        marginTop: 33,
       }}
     >
-      <Text style={{ color: "white" }}>Hello world</Text>
+      <Header />
+      <Text
+        style={{
+          color: "black",
+          backgroundColor: "lightyellow",
+        }}
+      >
+        Hello world!
+      </Text>
     </View>
   );
 }
