@@ -2,6 +2,7 @@ import { Text, View } from "react-native";
 import Header from "../../components/Header";
 
 import React from "react";
+import Header2 from "@/components/Header2";
 
 export default function HomeScreen() {
   return (
@@ -15,6 +16,7 @@ export default function HomeScreen() {
       }}
     >
       <Header />
+      <Header2 />
       <Text
         style={{
           color: "black",
