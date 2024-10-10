@@ -1,10 +1,19 @@
-import { Text, View } from "react-native";
 import React from "react";
+import { View, Text } from "react-native";
 
-export default function Header() {
+export default function LittleLemonHeader() {
   return (
-    <View>
-      <Text>this is the header</Text>
+    <View style={{ backgroundColor: "#F4CE14" }}>
+      <Text
+        style={{
+          padding: 40,
+          fontSize: 30,
+          color: "black",
+          textAlign: "center",
+        }}
+      >
+        Little Lemon
+      </Text>
     </View>
   );
 }

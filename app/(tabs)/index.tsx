@@ -3,28 +3,20 @@ import Header from "../../components/Header";
 
 import React from "react";
 import Header2 from "@/components/Header2";
+import Footer from "@/components/Footer";
 
 export default function HomeScreen() {
   return (
     <View
       style={{
         flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "gray",
-        marginTop: 33,
+        backgroundColor: "#495E57",
+        justifyContent: "space-between",
       }}
     >
       <Header />
-      <Header2 />
-      <Text
-        style={{
-          color: "black",
-          backgroundColor: "lightyellow",
-        }}
-      >
-        Hello world! again
-      </Text>
+
+      <Footer />
     </View>
   );
 }
