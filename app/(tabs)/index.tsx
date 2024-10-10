@@ -21,7 +21,7 @@ export default function HomeScreen() {
           backgroundColor: "lightyellow",
         }}
       >
-        Hello world!
+        Hello world! again
       </Text>
     </View>
   );
